@@ -1,0 +1,193 @@
+#title {
+  background-color: #557A95;
+  color: #fff;
+}
+
+#meetlogo {
+  padding: 17px;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: Montserrat;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+/* Navigation Bar  */
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-famliy: "Montserrat-Light";
+  font-weight:
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+  width: 35%;
+  transform: rotate(25deg);
+  position: relative;
+  top: 190px;
+}
+
+/* Features Section*/
+#features {
+  padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #557A95;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ef8172;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #557A95;
+  text-align: center;
+  color: #fff;
+}
+
+.ashelyPhoto {
+  border-radius: 100%;
+  width: 12%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #557A95;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+.girl-in-ny {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+
+/* Pricing Section*/
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-colum {
+  padding: 3% 2%;
+}
+
+.btn-lg {
+  background-color: #fff;
+}
+
+/* Call to Action */
+.call-to-action {
+  background-color: #557A95;
+  padding: 10% 15% 5%;
+}
+
+#cta {
+  text-align: center;
+  color: #fff;
+}
+
+.call-words {
+  font-size: 50px;
+}
+
+/* FOOTER  Section */
+#footer {
+  text-align: center;
+}
+
+.footer-class {
+  padding: 4% 15% 1%;
+}
+
+.contact-icons {
+font-size: 25px;
+margin: 10px;
+}
+.contact-icons:hover {
+  color: #ef8172;
+}
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .ashelyPhoto {
+    width: 50%;
+  }
+
+  .girl-in-ny {
+    width: 50%;
+  }
+
+  .call-words {
+    font-size: 30px;
+  }
+}
